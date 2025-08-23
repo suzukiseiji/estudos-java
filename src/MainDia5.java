@@ -16,6 +16,7 @@ public class MainDia5 {
 
         // ---------- Exercício ----------
 
+
         Aluno aluno_1 = new Aluno("João", 14, "123fd", 10);
         Aluno aluno_2 = new Aluno("Maria", 13, "321ad", 4);
 
