@@ -1,6 +1,4 @@
-import dia_5.Pessoa;
-import dia_5.Funcionario;
-import dia_5.Gerente;
+import dia_5.*;
 
 public class MainDia5 {
     public static void main(String[] args) {
@@ -15,5 +13,17 @@ public class MainDia5 {
         gerente.apresentar();
         gerente.exibirInfo();
         gerente.exibirInfoGerente();
+
+        // ---------- Exercício ----------
+
+        Aluno aluno_1 = new Aluno("João", 14, "123fd", 10);
+        Aluno aluno_2 = new Aluno("Maria", 13, "321ad", 4);
+
+        aluno_1.exibirNota();
+        aluno_2.exibirNota();
+
+        Professor professor = new Professor("Carlos", 28, "Matemática", 12000.00);
+
+        professor.exibirSalario();
     }
 }
