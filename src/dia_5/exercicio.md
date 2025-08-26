@@ -1,6 +1,6 @@
 # 📝 Exercício – Sistema de Escola
 
-Crie um mini sistema de classes para representar pessoas em uma escola.
+> Crie um mini sistema de classes para representar pessoas em uma escola.
 
 ---
 
